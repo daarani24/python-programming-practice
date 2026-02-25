@@ -6,6 +6,11 @@ This repository contains my daily Python practice programs as I strengthen my pr
 - Variables and Data Types
 - Conditional Statements
 - Loops
+- Functions
+- Lists, Tuples, Dictionaries
+- File Handling
+- Basic OOPS Concepts
+- Problem Solving Programs
 
 ## 🎯 Goal
 To build strong Python fundamentals and improve problem-solving skills for data analysis and AI development.
