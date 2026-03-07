@@ -1,0 +1,5 @@
+t = tuple(map(int, input("Enter tuple elements: ").split()))
+x = int(input("Enter element to count: "))
+count = t.count(x)
+print("Tuple:", t)
+print("Occurrence of", x, "is:", count)
