@@ -11,6 +11,7 @@ This repository contains my daily Python practice programs as I strengthen my pr
 - File Handling
 - Basic OOPS Concepts
 - Problem Solving Programs
+- simple game programs
 
 ## 🎯 Goal
 To build strong Python fundamentals and improve problem-solving skills for data analysis and AI development.
