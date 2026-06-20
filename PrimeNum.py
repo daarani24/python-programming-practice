@@ -6,5 +6,5 @@ else:
     if n%i==0:
       print("Not a Prime Number")
       break
-    else:
-      print("Prime Number")
+  else:
+    print("Prime Number")
