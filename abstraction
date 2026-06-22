@@ -4,20 +4,23 @@ class student(ABC):
     def display(self):
         pass
 class Details (student):
-    def __init__(self,name,id,marks):
+    def __init__(self,name,id,dept,marks):
         self.name=name
         self.id=id
+        self.dept=dept
         self.marks=marks
     def display(self):
         print("Name:",self.name)
         print("Id:",self.id)
+        print("department:",self.dept)
         print("Marks:",self.marks)
 n=int(input())
 det=[]
 for i in range(n):
     a=input()
     b=int(input())
-    c=int(input())
-    det.append(Details(a,b,c))
+    c=input()
+    d=int(input())
+    det.append(Details(a,b,c,d))
 for i in det:
     print(i.display())
