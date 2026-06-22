@@ -1,0 +1,23 @@
+from abc import ABC,abstractmethod
+class student(ABC):
+    @abstractmethod 
+    def display(self):
+        pass
+class Details (student):
+    def __init__(self,name,id,marks):
+        self.name=name
+        self.id=id
+        self.marks=marks
+    def display(self):
+        print("Name:",self.name)
+        print("Id:",self.id)
+        print("Marks:",self.marks)
+n=int(input())
+det=[]
+for i in range(n):
+    a=input()
+    b=int(input())
+    c=int(input())
+    det.append(Details(a,b,c))
+for i in det:
+    print(i.display())
