@@ -4,7 +4,7 @@ def rob(l):
         return n
     dp=[0]*n
     dp[0]=l[0]
-    dp[1]=l[1]
+    dp[1]=max(l[0],l[1])
     for i in range(2,n):
         dp[i]=max(dp[i-1],l[i]+dp[i-2])
     return dp[-1]
